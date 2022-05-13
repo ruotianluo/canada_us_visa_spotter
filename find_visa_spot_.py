@@ -73,7 +73,7 @@ import socket
 import requests
 
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S %Z"
-webhook_url = "https://hooks.slack.com/services/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"
+webhook_url = "<your slack webhook>"
 
 def slack_sender(webhook_url: str, channel: str, message: str, content: str, user_mentions: List[str] = []):
     """
@@ -123,7 +123,7 @@ while True:
     slack_content, spot_flag = find_spot()
     print(slack_content)
     if spot_flag:
-        slack_sender(webhook_url, 'knockknock', '', slack_content, user_mentions=['<@U7M4XNTLL>'])
+        # slack_sender(webhook_url, 'knockknock', '', slack_content, user_mentions=['<@U7M4XNTLL>'])
         call_sender()
     t = random.randint(15 * 60, 25 * 60)
     print(f'Sleep {t} seconds.')

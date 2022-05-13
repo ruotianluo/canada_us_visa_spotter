@@ -13,7 +13,9 @@ It is suggested to register a new account (using your friends name, and family m
 You need to put your email address and password in line 20 and line 21.
 
 ## Slack message
-By default, running this script will send a notification to my slack, so that this script can help more people in the wechat group. You can disable it by comment out line 126 in find_visa_spot_.py.
+If you are willing to benefit more people in the wechat group, you can enable the slack message which will send a notification to me on slack, and I will broadcast it in the group. If you are willing to help, please ping me and i will let you know the webhook link.
+
+You would need to change line 76 and uncomment line 126 in find_visa_spot_.py.
 
 ## Register twilio account
 With a twilio account, you can get a phone call to yourself when there is a good spot. You dont need to pay anything because the trial account is enough.
