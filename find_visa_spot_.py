@@ -4,7 +4,7 @@ import requests
 import json
 import os
 import sys
-sys.path.append(os.path.join(os.getcwd(), "/tuixue.online-visa/api"))
+sys.path.append(os.getcwd()+"/tuixue.online-visa/api")
 import tuixue.ais_reg as ais_reg
 import tuixue.ais_reg_orig as ais_reg_orig
 import tuixue.ais_login as ais_login
