@@ -1,4 +1,12 @@
+# Requirement
+Python3, Docker
 # Prepare
+
+## Install python packages
+```
+pip install knockknock uwsgi django selenium
+```
+
 ## Register an account
 It is suggested to register a new account (using your friends name, and family members name and creating a empty ds160.) One reason is if it get banned temporarily, it does not affect your real account. Another reason is the script needs the account to be in the "Pay fee mode", so **if you have an account that has already paid the fee, you cannot use it**.
 
